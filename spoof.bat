@@ -62,7 +62,7 @@ for %%A in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
         set part2=0000!digit2!
         set part2=!part2:~-4!
         set newID=!part1!-!part2!
-        VolumeID64 %%A: !newID! -nobanner /accepteula
+        VolumeID %%A: !newID! -nobanner /accepteula
     )
 )
  
